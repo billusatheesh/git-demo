@@ -11,6 +11,7 @@ public class UserController {
 	
 	@GetMapping
 	public String greetUser() {
+		System.out.println("Welcome to git");
 		return "Welocme to git-demo";
 	}
 }
